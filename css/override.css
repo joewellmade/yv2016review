@@ -1,0 +1,536 @@
+/*
+    * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+	* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+	Styles that need to be applied to desktop so they are not stuck in the media query style below
+	This is because the original styles set were not defined for desktop, instead they were done for
+	a screen with a min width of 0, which is very strange. So rather than clogggin up or making changes
+	to youngvic.css file these styles are added here (notice they are outside of the media-query). They
+	are the overwritten in the media query.
+
+	.production-slide .info .quote - The font size for the quote in the prodution highlight slides.
+
+	* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+    * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*/
+	.production-slide .info .quote {
+		font-size: 26px !important;
+	}
+
+
+	/* 	Finances - This class is set to display block to the smaller amount of thext that is shown for the 'Our Shows' text in the section */
+	.trimmed-down-copy-for-mobile {
+		display: none !important;
+	}
+
+
+	.reveal .slides .genesis-image-container {
+		text-align: left !important;
+    }
+
+    .reveal section img.genesis-image, .reveal section img.jerwood-image {
+	    margin-top: 0 !important;
+	    margin-left: 0 !important;
+	    width: auto !important;
+	}
+
+	.emerging-directors .person-quote {
+		font-size: 24px;
+	}
+	.emerging-page .h1.genesis {
+        font-size: 32px !important;
+    }
+	
+	
+	.reveal .slides {
+		-ms-transform: none !important;
+	}
+	.top-icon {
+		-ms-transform: none !important;
+		transform: none !important;
+		left: 50%;
+	}
+	
+	
+	
+
+	.reveal .controls .navigate-left {
+		left: 4% !important;
+	}
+	.reveal .controls .navigate-right {
+		right: 4% !important;
+	}
+
+    /* ARTISTS */
+    .thinggg .subtitle .tinuke {
+        text-transform: lowercase !important;
+    }
+
+
+/*
+	* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+	Basic media query u to 768px (common breakpoint for iOS devices)
+	* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*/
+@media (max-width: 768px) {
+
+
+
+
+    /*
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        Universal mobile styles
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+        .reveal .controls .navigate-up - Making arrow up easier to click
+        .reveal .controls .navigate-down - Making arrow down easier to click
+		img - Stops images from outgrowing parent element
+    */
+
+	.reveal .controls .navigate-up {
+		top: 10px !important;
+		left: 47% !important;
+	}
+	.reveal .controls .navigate-down {
+		bottom: 30px !important;
+		left: 47% !important;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	.reveal ol, .reveal dl, .reveal ul {
+		margin-left: 0;
+	}
+
+	.supporters-box .p-quote {
+		font-size: 16px;
+		line-height: 1.2;
+	}
+
+
+
+
+    /*
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        Menu
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+        .reveal .slide-menu.active - Reduce font size from 30px to 16px.
+        .reveal .slide-menu-item - Reduced line height to menu items looked tighter.
+        .menu-text2 - Making the exit menu button the same as the open menu button.
+    */
+    .reveal .slide-menu.active {
+        font-size: 16px;
+        line-height: 30px !important;
+    }
+    .reveal .slide-menu-item {
+        line-height: 30px;
+    }
+
+
+	.menu-text2 {
+		padding: 16px !important;
+		line-height: 1;
+	}
+
+
+
+
+    /*
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        Title pages / icons: a lot of titles and icons are overlapping
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+        .top-icon - Descreased the margin-top value
+        .reveal .vic-header - Increased the margin-top valu
+        .page1 .text - Increased the padding-top value so the menu is overlapping the people/s names in the welcome view
+    */
+    .top-icon {
+        margin-top: 15vh !important;
+    }
+
+    /* The h1 class is applied to a <p> element. Not sure why? This is bad practice */
+    .reveal .vic-header {
+        margin-top: 40vh !important;
+    }
+
+    .page1 .text {
+        padding: 12vh 15px;
+        overflow: scroll;
+    }
+
+
+
+
+    /*
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        Welcome
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+        Added data-prevent-swipe="true" attribute to <div class="page" style="background: #7d6164"> element.
+        Lines 56, 86 index.html
+    */
+
+
+
+
+    /*
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        Production Highlights
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        
+        .production-slide .info  - Increased the padding-top value:
+        .production-slide .info  - Added overflow scroll because the content was being cut of below the fold.
+        .production-slide .info .h2 - The font size for the title text inside the prodution highlight slides
+        .production-slide .info .quote - The font size for the quote in the prodution highlight slides.
+        .production-slide .info .credits p - The font size for the credits text (beneath the title) in the prodution highlight slides.
+        .production-slide .info p.star - The stars within the prodution highlight slides.
+        .production-slide .info .quote - The quote within the prodution highlight slides.
+        .highlight-slide .info .source, .production-slide .info .source - The source of the quote within the prodution highlight slides (also the production slides).
+        .production-slide .info .standard-p-text - Added the class .standard-p-text, which is used to standardise the <p> text styles.
+    */
+
+    .production-slide .info {
+        padding-top: 12vh !important;
+        overflow: scroll;
+    }
+
+	    .production-slide .info .production-place {
+		    padding-bottom: 0 !important
+	    }
+
+	    .production-slide .info .h2 {
+		    font-size: 30px !important;
+		    line-height: 1.2 !important;
+	    }
+
+	    .production-slide .info .credits p {
+		    font-size: 13px !important;
+	    }
+
+	    .production-slide .info p.star {
+		    font-size: 60px !important;
+		    line-height: 1;
+	    }
+
+		.production-slide .info .quote {
+			font-size: 20px !important;
+			padding-bottom: 0 !important;
+			line-height: 1;
+		}
+
+		.production-slide .info .source, .highlight-slide .info .source {
+			font-size: 16px !important;
+		}
+
+		.production-slide .info .standard-p-text {
+			font-size: 14px !important;
+		    font-weight: inherit !important;
+		    line-height: 1.3 !important;
+		}
+
+
+
+
+     /*
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        Artists
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+        Same issue as for (Welcome: can’t scroll down on the final Lucy Wollatt slide, so last part of text unreadable).
+        Added data-prevent-swipe="true" attribute to <div class="page" style="background: #7d6164"> element.
+
+        Line 481 index.html
+
+        To fix the font size under the Artists headline text:
+        Removed !important from the font size in the followin piece of the artists section:
+        <p class="center thing" style="font-size: 20px; padding-left:10%; padding-right: 10% ">
+        Once !important had been removed I over-rided the styles to make the font size match the other headings p content.
+
+    */
+    .page3 p.center.thing {
+        font-size: 15px !important;
+    }
+    .thinggg .white-name .h1 {
+        color: #ffffff !important;
+    }
+
+
+
+    /*
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        ISSUE :: Emerging Directors: can’t scroll down past top of screen
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+        Same issue as other issues where adding data-prevent-swipe="true" attribute to <div class="page" style="background: #7d6164"> element.
+        Line 860 index.html
+        
+        The rest is simply chaing font sizes, paddings or margins.
+    */
+
+    .emerging-directors .page {
+        overflow: scroll;
+    }
+        .emerging-directors > .row p.thing {
+            font-size: 15px !important;
+        }
+
+        .emerging-page .part1 {
+            padding-top: 12vh !important;
+        }
+
+        .reveal .slides .genesis-image-container {
+	        text-align: left !important;
+        }
+
+        .reveal section img.genesis-image, .reveal section img.jerwood-image {
+		    margin-top: 0 !important;
+		    margin-left: 0 !important;
+		    width: auto !important;
+		}
+
+		.emerging-directors .emerging-page .quote {
+		    font-size: 20px !important;
+		    line-height: 1 !important;
+		}
+
+	.emerging-directors .person-quote {
+		font-size: 14px;
+	}
+
+
+
+
+    /*
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        Highlights
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+    */
+    .highlights-page .quote2 {
+		font-size: 14px !important;
+		font-weight: inherit;
+	    line-height: 1.3;
+    }
+
+    .press {
+        padding-top: 12vh !important;
+    }
+
+        .press .press-logo {
+            width: auto;
+            height: auto;
+        }
+
+            .press .press-logo .press-logo-text {
+                font-size: 1.8em;
+            }
+
+        .press-quote-container {
+            margin-top: 0 !important;
+        }
+
+            .press .press-quote {
+                font-size: 1em;
+                line-height: 1.2;
+                padding-bottom: .6em;
+            }
+
+            .press .press-credit {
+                line-height: 1;
+                font-size: 1rem;
+                padding-bottom: 2em;
+            }
+
+
+    .highlight-slide .info {
+        margin: 0 20px 20px 20px;
+    }
+
+
+		.highlights-page .press-logo-text {
+		    font-size: 30px !important;
+		    line-height: 1.2 !important;
+		}
+
+
+		.highlights-page .highlight-slide .h2 {
+		    font-size: 30px !important;
+		    line-height: 1.2 !important;
+		    padding-top: 32px;
+		}
+
+
+
+
+    /*
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        Finances
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+        This is overriding inline stle on <div class="text col s12 l7" style="padding-left:100px !important; margin-top: 12vh !important;">
+        I removed the !important declarion from the padding style on the inline styling and used css to overide the value
+
+        Resulting html - <div class="text col s12 l7" style="padding-left:100px; margin-top: 12vh !important;">
+        Line 1155 index.html
+
+        .finances-page .finance-text .text - reducing padding left and right
+        .finances-page .row - Adding verflow scroll
+        .trimmed-down-copy-for-mobile - Showing the larger amount of text copy
+        .finances-page .finance-text - Adding verflow scroll
+        .full-copy-for-deskop - Hiding the larger amount of text copy
+        .finances-page .chart-text-container - Had to add class chart-text-container to index. Added so I could reduce the gap between the pie chart and title below
+        .finances-page .chart-titles - Had to add class chart-titles to index. Reducing font size
+        .finances-page .chart-colored-boxes - Had to add class chart-colored-boxes to index so I could style it and it's p children elements
+    */
+
+
+    .finances-page .row {
+        overflow: scroll !important;
+    }
+
+    .finances-page .finance-text {
+        overflow: scroll !important;
+    }
+
+    .finances-page .finance-text .text {
+        padding-left: 46px !important;
+        padding-right: 46px !important;
+        overflow: scroll !important;
+    }
+
+		.trimmed-down-copy-for-mobile {
+			display: block !important;
+		}
+
+		.full-copy-for-deskop {
+			display: none;
+		}
+
+    .finances-page .chart-text-container {
+	    padding-top: 0 !important;
+    }
+
+    .finances-page .chart-titles {
+	    font-size: 38px !important;
+    }
+
+    .finances-page .chart-colored-boxes {
+	    background-color: rgb(255, 199, 0);
+	    width: 100%!important;
+	    height: auto !important;
+	    margin-bottom: 10px;
+    }
+
+	    .finances-page .chart-colored-boxes p {
+		    font-size: 18px !important;
+		    text-align: center !important;
+			height: auto !important;
+			padding: 8px !important;
+	    }
+
+    .finances-page .finance-title {
+		font-size: 30px !important;
+		line-height: 1.2 !important;
+    }
+
+
+
+
+    /*
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        Tour Map
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+    */
+
+    .tours .map {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top: 0 !important;
+            overflow: scroll;
+    }
+        .tours .map-text {
+            position: relative !important;
+            width: 100% !important;
+            margin-left: 0 !important;
+            top: 0;
+        }
+
+
+
+
+    /*
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        Taking Part
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+		Removed importnat from the paddding on:
+		<div class="col s12 l7" style="height: 100vh !important; background:rgb(51, 42, 43); padding: 5%">
+		Line 655 index.html
+
+		Added: data-prevent-swipe="true" - on the following lines:
+		Line: 668, 704, 726, 758, 793, 830 index.html
+
+    */
+
+    .taking-part .page .col {
+	    padding: 12vh 10vw !important;
+	    height: auto !important;
+    }
+
+
+    	.taking-part .taking1 .taking1-image {
+	    	display: none;
+    	}
+
+    	.taking-part .main-box {
+	    	padding-top: 12vh !important;
+	    	height: auto !important;
+    	}
+
+    		.taking-part .main-box .large {
+	    		margin-top: 0px !important;
+	    	    font-size: 22px !important;
+    		}
+
+    	.taking-part .production-slide .info {
+	    	height: auto !important;
+    	}
+
+    	.taking-part .sub {
+	    	height: auto !important;
+	    	}
+
+	    	.taking-part .sub .h1 {
+	    	    font-size: 22px !important;
+	    	}
+
+	    .taking-part p.taking-text {
+		    font-size: 14px !important;
+		    font-weight: inherit;
+		    line-height: 1.3;
+		}
+
+
+
+
+    /*
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        Young Vic Films
+        * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+    */
+
+    .youngvic-page .film-slide .h2 {
+		    font-size: 30px !important;
+		    line-height: 1.2 !important;
+		}
+
+
+		.youngvic-page .film-slide .standard-p-text {
+		    font-size: 14px !important;
+		    line-height: 1.2 !important;
+		}
+
+
+}
