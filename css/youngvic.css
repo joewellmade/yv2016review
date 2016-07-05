@@ -64,7 +64,7 @@
         padding: 10% !important;
     }
     .taking-part-image {
-        background-image: url('../img/taking-image.jpg');
+        background-image: url('../img/taking-part/introduction.jpg');
         background-size: cover;
         width: auto;
         height: 100vh;
@@ -1279,27 +1279,27 @@
     }
     
     .young-people-title {
-        height: 70vh !important;
+        height: 40vh !important;
     }
     
     .sub1 {
-        height: 40vh !important;
+        height: 40% !important;
         background-color: #ffc700;
     }
     
     .sub2 {
         background: #424691;
-        height: 40vh !important;
+        height: 40% !important;
     }
     
     .sub3 {
         background: #a51544;
-        height: 40vh !important;
+        height: 40% !important;
     }
     
     .sub4 {
         background: #00776c !important;
-        height: 40vh;
+        height: 40%;
         text-shadow: none !important;
     }
     

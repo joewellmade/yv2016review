@@ -1541,6 +1541,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/productions\/lwtlo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66883,
+		"inputAbbreviatedPath": "\/img\/productions\/lwtlo.jpg",
+		"outputAbbreviatedPath": "\/img\/productions\/lwtlo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/productions\/macbeth.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1647,6 +1658,50 @@
 		"initialSize": 183573,
 		"inputAbbreviatedPath": "\/img\/taking-image.jpg",
 		"outputAbbreviatedPath": "\/img\/taking-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/taking-part\/brolly.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 131840,
+		"inputAbbreviatedPath": "\/img\/taking-part\/brolly.jpg",
+		"outputAbbreviatedPath": "\/img\/taking-part\/brolly.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/taking-part\/introduction.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 238329,
+		"inputAbbreviatedPath": "\/img\/taking-part\/introduction.jpg",
+		"outputAbbreviatedPath": "\/img\/taking-part\/introduction.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/taking-part\/macbeth.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69814,
+		"inputAbbreviatedPath": "\/img\/taking-part\/macbeth.jpg",
+		"outputAbbreviatedPath": "\/img\/taking-part\/macbeth.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/taking-part\/sendshow.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126060,
+		"inputAbbreviatedPath": "\/img\/taking-part\/sendshow.jpg",
+		"outputAbbreviatedPath": "\/img\/taking-part\/sendshow.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
