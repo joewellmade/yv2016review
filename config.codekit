@@ -1464,6 +1464,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/productions\/StagingaRevolution.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182643,
+		"inputAbbreviatedPath": "\/img\/productions\/StagingaRevolution.jpg",
+		"outputAbbreviatedPath": "\/img\/productions\/StagingaRevolution.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/productions\/theroof.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
