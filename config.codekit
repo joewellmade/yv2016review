@@ -639,6 +639,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/highlights\/barbarians.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 249573,
+		"inputAbbreviatedPath": "\/img\/highlights\/barbarians.jpg",
+		"outputAbbreviatedPath": "\/img\/highlights\/barbarians.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/highlights\/female-creatives.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
