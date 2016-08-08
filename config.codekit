@@ -529,6 +529,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/directors\/directing-with-gbolahan-obisesan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122441,
+		"inputAbbreviatedPath": "\/img\/directors\/directing-with-gbolahan-obisesan.jpg",
+		"outputAbbreviatedPath": "\/img\/directors\/directing-with-gbolahan-obisesan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/directors\/genesis.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -547,6 +558,39 @@
 		"initialSize": 90496,
 		"inputAbbreviatedPath": "\/img\/directors\/genesis2.jpg",
 		"outputAbbreviatedPath": "\/img\/directors\/genesis2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/directors\/jasmine-woodcock.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109639,
+		"inputAbbreviatedPath": "\/img\/directors\/jasmine-woodcock.jpg",
+		"outputAbbreviatedPath": "\/img\/directors\/jasmine-woodcock.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/directors\/joe-hill-gibbons.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 134202,
+		"inputAbbreviatedPath": "\/img\/directors\/joe-hill-gibbons.jpg",
+		"outputAbbreviatedPath": "\/img\/directors\/joe-hill-gibbons.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/directors\/rachel-lincoln.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 165989,
+		"inputAbbreviatedPath": "\/img\/directors\/rachel-lincoln.jpg",
+		"outputAbbreviatedPath": "\/img\/directors\/rachel-lincoln.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -635,6 +679,17 @@
 		"initialSize": 29559,
 		"inputAbbreviatedPath": "\/img\/grey.png",
 		"outputAbbreviatedPath": "\/img\/grey.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/highlights\/a-view-from-the-bridge-on-broadway.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137685,
+		"inputAbbreviatedPath": "\/img\/highlights\/a-view-from-the-bridge-on-broadway.jpg",
+		"outputAbbreviatedPath": "\/img\/highlights\/a-view-from-the-bridge-on-broadway.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1699,6 +1754,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.prettyPhoto.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery.prettyPhoto-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/reveal-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/reveal-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/reveal-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
