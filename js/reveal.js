@@ -35,8 +35,8 @@
 
 			// The "normal" size of the presentation, aspect ratio will be preserved
 			// when the presentation is scaled to fit different resolutions
-			width: 1333,
-			height: 1000,
+			width: 1955.56,
+			height: 1100,
 
 			// Factor of the display size that should remain empty around the content
 			margin: 0.1,
