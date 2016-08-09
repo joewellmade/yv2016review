@@ -991,13 +991,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo_ all.png": {
+	"\/img\/logo_all.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 33287,
-		"inputAbbreviatedPath": "\/img\/logo_ all.png",
-		"outputAbbreviatedPath": "\/img\/logo_ all.png",
+		"initialSize": 15955,
+		"inputAbbreviatedPath": "\/img\/logo_all.png",
+		"outputAbbreviatedPath": "\/img\/logo_all.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

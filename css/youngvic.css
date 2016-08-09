@@ -1818,3 +1818,11 @@ td {
 		.emerging-directors .emerging-page .quote {
 		    font-size: 28px !important;
 		}
+
+/* ------ JOE'S STYLES ------- */
+
+.indiv-supporters {
+    display: inline-block;
+    margin: 0 auto;
+    width: 90%;
+}
