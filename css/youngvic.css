@@ -1826,3 +1826,14 @@ td {
     margin: 0 auto;
     width: 90%;
 }
+.cast-links .cast-box-grey a, .cast-links .cast-box-pink a {
+    color: #fff;
+    text-decoration: underline;
+}
+.cast-links .cast-box-yellow a {
+    color: #000;
+    text-decoration: underline;
+}
+.cast-creatives {
+    height: 50vh;
+}
