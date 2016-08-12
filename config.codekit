@@ -1640,6 +1640,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/taking-part\/stay.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 235762,
+		"inputAbbreviatedPath": "\/img\/taking-part\/stay.jpg",
+		"outputAbbreviatedPath": "\/img\/taking-part\/stay.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/top-left-red.png": {
 		"fileType": 32768,
 		"ignore": 0,
