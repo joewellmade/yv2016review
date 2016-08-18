@@ -1168,7 +1168,7 @@
         text-align: center;
     }
     .supporters-box img {
-        max-width: 1100px;
+        max-width: 100%;
     }
     
     .supporters-page .h1,
@@ -1842,4 +1842,12 @@ td {
 }*/
 .cast-creatives .top-icon {
     margin-top: -15vh !important;
+}
+a.prod-link {
+    color: #fff;
+    text-decoration: underline;
+}
+a.prod-link:hover, a.prod-link:focus {
+    color: #ccc;
+    text-decoration: underline;
 }
