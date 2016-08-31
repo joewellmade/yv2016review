@@ -1851,3 +1851,6 @@ a.prod-link:hover, a.prod-link:focus {
     color: #ccc;
     text-decoration: underline;
 }
+img.genesis-image {
+    max-width: 250px !important;
+}
